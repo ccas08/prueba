@@ -1,5 +1,3 @@
-from funtools import reduce
-
 palindromo = lambda string: string == string[::-1]
 
 print(palindromo("ana"))
@@ -11,5 +9,5 @@ print(odd)
 
 """map"""
 my_list2 = [1, 2, 3, 4, 5]
-squares2 = list(map(lambda x: x ** 2), my_list)
+squares2 = list(map(lambda x: x ** 2, my_list))
 print(squares2)

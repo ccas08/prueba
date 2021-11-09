@@ -28,3 +28,18 @@ cuadrados = [eleva_al_2(i) for i in range(5)]
 # [0, 1, 4, 9, 16]
 if __name__ == "__main__":
     run()
+
+"""reto
+
+
+def run():
+
+    my_dict = {i: round(i ** 0.5, 2) for i in range(1, 1001)}
+
+    print(my_dict)
+
+
+if __name__ == "__main__":
+    run()
+
+"""
